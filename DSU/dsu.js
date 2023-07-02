@@ -42,3 +42,12 @@ edges.forEach(x=>{
     s.add(d.find(x[0]))
 });
 console.log(s.size)
+
+function gn(x,i,j){
+    if(i<0 || j<0 || i>=x.length || j >= x[i].length) return null;
+    else return x[i][j];
+}
+
+d = new DSU();
+
+
