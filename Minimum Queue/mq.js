@@ -19,8 +19,6 @@ class MQ{
         return this.#val[0]?.ele;
     }
 }
-const M = new MQ();
-
 // Finding the minimum for all subarrays of fixed length
 const arr = [5,0,6,1,7,2];
 const m  = 3;
